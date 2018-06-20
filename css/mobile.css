@@ -1,0 +1,114 @@
+* {
+  margin: 0px;
+  padding: 2px;
+  user-select: none;
+	text-decoration: none ;
+	color: white;
+	}
+
+html {
+  height: 100%;
+}
+
+body {
+  background-image: url("../img/fond03.jpg");
+  max-width: 100%;
+  font-size: 20px;
+  color: white;
+  min-height: 100%;
+}
+
+.pageAccueil {
+	font-family: "Permanent Marker", cursive;
+	display: Flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 15px;
+}
+
+@media only screen and (max-width: 750px) {
+    .video  {
+        display: none;
+}}
+
+/*marge entre section*/
+section {
+  margin-bottom: 10px;
+}
+
+/*centrage*/
+.margeGauche {
+  text-align: center;
+}
+
+header {
+  height: 480px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+	background-color: rgba(190,181,202,0.5);
+	border-radius: 10px;
+	box-shadow: black 2px 2px 2px;
+}
+
+h2 {
+	font-family: arial;
+  font-weight: normal;
+  font-size: 20px;
+}
+
+P {
+	font-family: arial;
+  font-size: 15px;
+}
+
+.photoMobile {
+	width: 100%;
+}
+
+/*formulaire*/
+input, textarea {
+	padding: 10px;
+	border: 1px solid #E5E5E5;
+	width: 90%;
+	box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 8px;
+	-moz-box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 8px;
+	-webkit-box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 8px;
+}
+
+textarea {
+  color: Grey;
+	width: 90%;
+	height: 100px;
+	max-width: 90%;
+	line-height: 18px;
+}
+
+input:hover, textarea:hover,
+input:focus, textarea:focus {
+	border-color: 1px solid #C9C9C9;
+	box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 8px;
+	-moz-box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 8px;
+	-webkit-box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 8px;
+}
+
+.form label {
+	margin-left: 10px;
+	color: black;
+}
+
+input {
+  color: Grey;
+}
+
+/*bouton*/
+button {
+  width: 80px;
+	height: 30px;
+	background-color: Grey;
+	color: black;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+}
